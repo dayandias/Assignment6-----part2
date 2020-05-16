@@ -42,3 +42,5 @@ public class query5 {
 	
 	}
 }
+//Error message
+//Cannot delete or update a parent row: a foreign key constraint fails (`paper_reviews`.`paper`, CONSTRAINT `paper_ibfk_1` FOREIGN KEY (`Contact_Author`) REFERENCES `author` (`Author_id`))
